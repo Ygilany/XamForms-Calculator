@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,7 +12,7 @@ namespace Calculator
 		public App()
 		{
 			// The root page of your application
-            MainPage = new MainPage();
+            MainPage = new OldMainPage();
 		}
 
 		protected override void OnStart()
